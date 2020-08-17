@@ -119,7 +119,7 @@
                             <p>
                                 Lorem ipsum <b>dolor</b> sit amet consectetur <strong>adipisicing</strong>  elit. Numquam<i>deserunt libero</i>  temporibus odit officia <em> praesentium</em>  adipisci<sub> minus</sub><sup>ipsum</sup>  at, eaque modi natus, culpa <code> code: for(;;) {...}</code> <a href="#">Link</a> distinctio voluptatem!
                             </p>
-                            <h1>titulo h1</h1>
+                            <h1> titulo h1</h1>
                             <h2>titulo h2</h2>
                             <h3>titulo h3</h3>
                             <h4>titulo h4</h4>
@@ -135,44 +135,64 @@ alert('oi');
                               </code>
                             </pre>
                             <h4>Listas</h4>
-                            <h5>Não ordenada</h5>
-                            <ul>
-                              <li>item1</li>
-                              <li>item3</li>
-                              <li>item3</li>
-                            </ul>
-                            <h5>Alternate</h5>
-                            <ol class="ul-alternate">
-                              <li>item1</li>
-                              <li>item3</li>
-                              <li>item3</li>
-                            </ol>
-                            <h5>Icons</h5>
-                            <ul>
-                              <li><i class="fab fa-twitter fa-3x "  ></i></li>
-                              <li><i class="fab fa-facebook fa-3x"></i></li>
-                              <li><i class="fab fa-instagram fa-3x"></i></li>
-                              <li><i class="fab fa-github-square fa-3x"></i></li>
-                            </ul>
+                            <div class="row">
+                              <div class="col-2">
+                                <h5>Não ordenada</h5>
+                                  <ul>
+                                      <li> item1</li>
+                                      <li>item2</li>
+                                      <li>item3</li>
+                                    </ul>
+                                    <h5>Ordenada</h5>
+                                      <ol>
+                                      <li>item1</li>
+                                      <li>item2</li>
+                                      <li>item3</li>
+                                    </ol>
+                              </div>
+                            
+                            <div class="col-2">
+                              <h5>Alternate</h5>
+                                <ul class="ul-alternate">
+                                    <li>item1</li>
+                                    <li>item2</li>
+                                    <li>item3</li>
+                                </ul>
+                                <h5>Icons</h5>
+                                <ul class="ul-icons">
+                                    <li><i class="fab fa-twitter fa-3x "  ></i></li>
+                                    <li><i class="fab fa-facebook fa-3x"></i></li>
+                                    <li><i class="fab fa-instagram fa-3x"></i></li>
+                                    <li><i class="fab fa-github-square fa-3x"></i></li>
+                                </ul>
+                            </div>
+                          </div>  
 
                             <h5>Actions</h5>
+
+                            <div class="row">
+                              <div class="col-2">
                             <p>
-                              <a href="#" class="button-default">Default</a>
-                             <a href="#" class="button-default button-default-stroke ">Default</a>
+                                <a href="#" class="button-default">Default</a>
+                              <a href="#" class="button-default button-default-stroke ">Default</a>
                             </p>
                             <p>
-                              <a href="#" class="button-default button-default-small">Default</a>
-                              <a href="#" class="button-default button-default-small button-default-stroke ">Default</a>
+                                <a href="#" class="button-default button-default-small">Default</a>
+                                <a href="#" class="button-default button-default-small button-default-stroke ">Default</a>
                              </p>
+                              </div>
+                              <div class="col-2">
                              <p>
-                               <a href="#" class="button-default button-default-full">Default</a>
-                              <a href="#" class="button-default button-default-full button-default-stroke ">Default</a>
+                                <a href="#" class="button-default button-default-full">Default</a>
+                                <a href="#" class="button-default button-default-full button-default-stroke ">Default</a>
                              </p>
                              <p>
                                <a href="#" class="button-default button-default-full button-default-small">Default</a>
                               <a href="#" class="button-default button-default-full button-default-small button-default-stroke ">Default</a>
                              </p>
-                             
+                             </div>
+                            </div>    
+                                                     
                              <h4>Table</h4>
                              <h5>Default</h5>
                              <table class="table">
